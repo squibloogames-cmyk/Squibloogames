@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SUM THREADS — Delete Account & Data</title>
+
+  <style>
+    :root {
+      --bg: #171126;
+      --card: #221a38;
+      --gold: #ffd84d;
+      --text: #f5f2ff;
+      --muted: #c8c2d8;
+      --link: #ffe27a;
+      --border: #5b4a82;
+      --danger: #ff6b6b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px 70px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .header h1 {
+      color: var(--gold);
+      margin-bottom: 8px;
+      font-size: 32px;
+    }
+
+    .header p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 {
+      color: var(--gold);
+      margin-top: 30px;
+      font-size: 21px;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    p {
+      color: var(--text);
+    }
+
+    ul {
+      color: var(--text);
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .warning {
+      background: rgba(255, 107, 107, 0.08);
+      border-left: 4px solid var(--danger);
+      padding: 16px 18px;
+      border-radius: 8px;
+      margin: 25px 0;
+    }
+
+    .email-box {
+      text-align: center;
+      background: rgba(255, 216, 77, 0.08);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      margin: 25px 0;
+    }
+
+    .email-box a {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 22px;
+      border-radius: 10px;
+      background: var(--gold);
+      color: #171126;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px 14px 50px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+
+      .header h1 {
+        font-size: 27px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>SUM THREADS</h1>
+    <p>Delete Account &amp; Data</p>
+  </div>
+
+  <div class="card">
+
+    <h2>Request Account &amp; Data Deletion</h2>
+
+    <p>
+      SQUIBLOO GAMES provides a way for SUM THREADS players to request
+      deletion of their account and associated game data.
+    </p>
+
+    <p>
+      You can also use the <strong>DELETE ACCOUNT &amp; DATA</strong>
+      option available inside the SUM THREADS app.
+    </p>
+
+    <div class="warning">
+      <strong>Important:</strong>
+      Account and data deletion may permanently remove your SUM THREADS
+      cloud progress, leaderboard entry, anonymous account, and locally
+      stored game data. Deleted game data may not be recoverable.
+    </div>
+
+    <h2>How to Request Deletion</h2>
+
+    <p>
+      Send an email to:
+    </p>
+
+    <div class="email-box">
+
+      <a href="mailto:squibloogames@gmail.com?subject=SUM%20THREADS%20Account%20Deletion%20Request">
+        squibloogames@gmail.com
+      </a>
+
+      <br>
+
+      <a class="button"
+         href="mailto:squibloogames@gmail.com?subject=SUM%20THREADS%20Account%20Deletion%20Request">
+        REQUEST DATA DELETION
+      </a>
+
+    </div>
+
+    <p>
+      Please use the subject:
+    </p>
+
+    <p>
+      <strong>SUM THREADS Account Deletion Request</strong>
+    </p>
+
+    <p>
+      If available, include your SUM THREADS player ID or Firebase
+      anonymous user ID so that we can identify the correct game data.
+      Do not send passwords or other sensitive information.
+    </p>
+
+    <h2>What Will Be Deleted</h2>
+
+    <p>
+      Depending on the circumstances and applicable requirements, the
+      deletion process is intended to remove the player's associated
+      SUM THREADS data, which may include:
+    </p>
+
+    <ul>
+      <li>Firebase Authentication account;</li>
+      <li>SUM THREADS player data stored in Firestore;</li>
+      <li>public leaderboard entry;</li>
+      <li>game progress and progression data;</li>
+      <li>virtual economy and booster data;</li>
+      <li>profile display name and avatar;</li>
+      <li>locally stored game data on the device.</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+
+    <p>
+      SUM THREADS uses third-party services such as Google Firebase and
+      Google Mobile Ads. Some information processed by third-party
+      providers may be subject to their own retention policies and
+      legal obligations.
+    </p>
+
+    <p>
+      For more information, please review our
+      <a href="privacy.html">Privacy Policy</a>.
+    </p>
+
+    <h2>Deletion Requests</h2>
+
+    <p>
+      SQUIBLOO GAMES will review deletion requests and take appropriate
+      action in accordance with applicable law and our Privacy Policy.
+    </p>
+
+    <p>
+      We may need sufficient information to verify and identify the
+      relevant game data before processing a request.
+    </p>
+
+    <h2>Contact</h2>
+
+    <p>
+      <strong>SQUIBLOO GAMES</strong><br>
+      Email:
+      <a href="mailto:squibloogames@gmail.com">
+        squibloogames@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <a href="terms.html">Terms of Use</a>
+      &nbsp; | &nbsp;
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
+
+  </div>
+
+  <div class="footer">
+    © 2026 SQUIBLOO GAMES. All rights reserved.
+  </div>
+
+</div>
+
+</body>
+</html>
